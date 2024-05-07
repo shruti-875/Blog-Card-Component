@@ -1,0 +1,75 @@
+/* Use @import directive to import fonts here */
+
+body {
+    font-family: sans-serif;
+    background-color: #e3e89b;
+    margin: 60px; 
+   
+  }
+  
+  .card {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%; 
+    max-width: fit-content;
+    margin: 0 auto; 
+    background-color: white;
+    padding: 9px 15px;
+    border-radius: 2%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  h4 b {
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(17, 102, 155);
+    padding: 10px;
+    font-size: 12px;
+  }
+  .chip {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+   
+  }
+  
+  .chip img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   margin-right: 15px;   
+  }
+  
+  .chip .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chip .info .name {
+    font-weight: bold;
+  }
+  
+  .chip .info .time {
+    color: #888;
+    font-size: 12px;
+  }
+  
+  pre{
+    text-align: center;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+ 
+  @media screen and (min-width: 768px) {
+    .card {
+      width: 30%;
+      height: 20%;
+  
+    }
+  }
+  
